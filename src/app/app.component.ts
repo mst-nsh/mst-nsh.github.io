@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'mst-nsh.github.io[my page]';
+  title = 'mst-nsh';
 }
