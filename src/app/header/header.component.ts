@@ -9,5 +9,5 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  title = 'こちら、mst-nsh';
+  title = 'mst-nsh.github.io';
 }
