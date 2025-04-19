@@ -6,7 +6,6 @@ import { HeaderComponent } from '@src/app/header/header.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   imports: [CommonModule, MatToolbarModule, FooterComponent, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
