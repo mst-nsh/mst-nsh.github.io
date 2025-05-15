@@ -1,6 +1,14 @@
-<mat-toolbar>
+<mat-toolbar color="primary">
   <div class="dummy-space"></div>
   <span class="title">{{ title }}</span>
   <span class="spacer"></span>
-  <mat-slide-toggle>Toggle me!</mat-slide-toggle>
+  <mat-slide-toggle
+    [checked]="isDarkTheme$ | async"
+    (change)="toggleTheme()"
+    color="primary"
+  >
+    <mat-icon>{{
+      (isDarkTheme$ | async) ? "dark_mode" : "light_mode"
+    }}</mat-icon>
+  </mat-slide-toggle>
 </mat-toolbar>
