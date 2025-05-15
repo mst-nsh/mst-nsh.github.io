@@ -6,4 +6,9 @@
   position: fixed;
   bottom: 0;
   text-align: center;
+  justify-content: center;
+}
+
+mat-icon {
+  color: rgb(0, 255, 0);
 }
