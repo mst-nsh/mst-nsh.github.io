@@ -1,2 +1,30 @@
 <!-- フッター -->
-<mat-toolbar color="primary" class="footer toolbar-border"> </mat-toolbar>
+<mat-toolbar color="primary" class="footer toolbar-border">
+  @if(isDarkTheme$ | async) {
+  <img
+    class="external-service"
+    src="../../assets/logo-only.svg"
+    alt="zenn-icon"
+    (click)="openZenn()"
+  />
+  <img
+    class="external-service"
+    src="../../assets/github-mark-dark.svg"
+    alt="github-icon"
+    (click)="openGithub()"
+  />
+  } @else {
+  <img
+    class="external-service"
+    src="../../assets/logo-only-white.svg"
+    alt="zenn-icon"
+    (click)="openZenn()"
+  />
+  <img
+    class="external-service"
+    src="../../assets/github-mark.svg"
+    alt="github-icon"
+    (click)="openGithub()"
+  />
+  }
+</mat-toolbar>
