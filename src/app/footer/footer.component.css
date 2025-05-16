@@ -12,3 +12,12 @@
 mat-icon {
   color: rgb(0, 255, 0);
 }
+
+.external-service {
+  height: 50%;
+  margin: 10px;
+}
+
+.external-service:hover {
+  cursor: pointer;
+}

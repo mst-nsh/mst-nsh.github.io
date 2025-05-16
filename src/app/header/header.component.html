@@ -1,5 +1,11 @@
 <mat-toolbar color="primary" class="toolbar-border">
   <span>{{ title }}</span>
+
+  @if(isDarkTheme$ | async) {
+  <mat-icon class="green">sentiment_very_satisfied</mat-icon>
+  <mat-icon class="green">back_hand</mat-icon>
+  }
+
   <span class="spacer"></span>
   <mat-slide-toggle
     [checked]="isDarkTheme$ | async"

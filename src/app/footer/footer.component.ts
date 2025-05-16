@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
+import { CommonModule } from '@angular/common';
 import { ThemeService } from './../theme.service';
 import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-footer',
-  imports: [CommonModule, MatToolbarModule, MatIconModule],
+  imports: [CommonModule, MatToolbarModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css',
 })
@@ -17,5 +16,12 @@ export class FooterComponent {
 
   ngOnInit(): void {
     this.isDarkTheme$ = this.themeService.isDarkTheme$;
+  }
+
+  openZenn() {
+    window.open('https://zenn.dev/mst_nishio');
+  }
+  openGithub() {
+    window.open('https://github.com/mst-nsh');
   }
 }
