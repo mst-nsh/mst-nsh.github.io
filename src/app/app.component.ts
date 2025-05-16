@@ -11,8 +11,6 @@ import { HeaderComponent } from '@src/app/header/header.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'mst-nsh';
-
   shieldsUrls = [
     'https://img.shields.io/badge/-HTML5-555?style=flat-square&logo=html5',
     'https://img.shields.io/badge/-CSS-555?style=flat-square&logo=css',

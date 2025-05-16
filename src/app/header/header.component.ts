@@ -18,7 +18,7 @@ import { Observable } from 'rxjs';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  title = 'mst-nsh.github.io';
+  title = 'mst-nsh';
 
   isDarkTheme$!: Observable<boolean>;
   constructor(private themeService: ThemeService) {}
