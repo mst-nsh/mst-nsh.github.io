@@ -1,0 +1,11 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 2rem 0 0;
+}
