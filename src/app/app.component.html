@@ -1,15 +1,7 @@
 <!-- ヘッダー -->
 <app-header></app-header>
 
-<p align="center">フロントエンドエンジニアをメインに活動しています。</p>
-<p align="center">技術スタックは以下の通りです。</p>
-<p align="center">
-  @for (shieldsUrl of shieldsUrls; track $index) {
-  <img src="{{ shieldsUrl }}" /><span>&nbsp;</span>
-  } @empty {
-    <p>メンテナンス中</p>
-  }
-</p>
+<app-contents></app-contents>
 
 <!-- フッター -->
 <app-footer></app-footer>
