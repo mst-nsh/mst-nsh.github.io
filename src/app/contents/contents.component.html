@@ -1,29 +1,31 @@
-<section>
-  <p>フロントエンドエンジニアをメインに活動しています。</p>
-</section>
+<div class="contents">
+  <section>
+    <p>フロントエンドエンジニアをメインに活動しています。</p>
+  </section>
 
-<section>
-  <h1>Skills</h1>
-  <div>
-    @for (shieldsUrl of shieldsUrls; track $index) {
-    <img src="{{ shieldsUrl }}" /><span>&nbsp;</span>
-    } @empty {
-    <p>メンテナンス中</p>
-    }
-  </div>
-</section>
+  <section>
+    <h1>Skills</h1>
+    <div>
+      @for (shieldsUrl of shieldsUrls; track $index) {
+      <img src="{{ shieldsUrl }}" /><span>&nbsp;</span>
+      } @empty {
+      <p>メンテナンス中</p>
+      }
+    </div>
+  </section>
 
-<section>
-  <h1>Works</h1>
-  <p>
-    <b>健康麻雀じゃんけん 様</b><br />
-    ホームページのレスポンシブ対応などを行いました。
-  </p>
-  <a href="http://www.jong-ken.com/" target="_blank">
-    <img
-      src="../assets/www.jong-ken.com.png"
-      alt="健康麻雀じゃんけんホームページ"
-      width="50%"
-    />
-  </a>
-</section>
+  <section>
+    <h1>Works</h1>
+    <p>
+      <b>健康麻雀じゃんけん 様</b><br />
+      ホームページのレスポンシブ対応などを行いました。
+    </p>
+    <a href="http://www.jong-ken.com/" target="_blank">
+      <img
+        src="../assets/www.jong-ken.com.png"
+        alt="健康麻雀じゃんけんホームページ"
+        width="50%"
+      />
+    </a>
+  </section>
+</div>
