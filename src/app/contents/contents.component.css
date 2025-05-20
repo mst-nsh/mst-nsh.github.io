@@ -13,3 +13,9 @@ h1 {
 .contents {
   padding-bottom: 60px; /* Space for the footer */
 }
+
+.works-img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+}
